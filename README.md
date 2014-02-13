@@ -44,17 +44,6 @@ Issues
 
 Simply add a issue in the [issue tracker](https://bitbucket.org/tomasnorre/chef_pptpd_vpn/issues).
 
-Contributing
-------------
-
-e.g.
-<ol>
-  <li>Fork the repository</li>
-  <li>Create a named feature branch (like `add_component_x`)</li>
-  <li>Write your change</li>
-  <li>Submit a Pull Request</li>
-</ol>
-
 License and Authors
 -------------------
 Authors: Tomas Norre <tomas.norre@gmail.com>
