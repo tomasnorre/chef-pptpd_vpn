@@ -3,15 +3,16 @@ pptpd_vpn Cookbook
 This cookbook is a pptpd_vpn server build. It is build for raspberry pi with Raspbian[1], but as Raspbian is build on Debian[2] is
 also works on Debian and Ubuntu[3].
 
-1) [http://www.raspbian.org/](http://www.raspbian.org/)<br />
-2) [http://www.debian.org/](http://www.debian.org/)<br />
-3) [http://www.ubuntu.com/](http://www.ubuntu.com/)<br />
+1) [http://www.raspbian.org/](http://www.raspbian.org/)
+
+2) [http://www.debian.org/](http://www.debian.org/)
+
+3) [http://www.ubuntu.com/](http://www.ubuntu.com/)
 
 Requirements
 ------------
 
 Running system with one of above operating systems.
-
 
 
 Attributes
@@ -47,16 +48,17 @@ Contributing
 ------------
 
 e.g.
-1. Fork the repository
-2. Create a named feature branch (like `add_component_x`)
-3. Write your change
-4. Submit a Pull Request
-
-
+<ol>
+  <li>Fork the repository</li>
+  <li>Create a named feature branch (like `add_component_x`)</li>
+  <li>Write your change</li>
+  <li>Submit a Pull Request</li>
+</ol>
 
 License and Authors
 -------------------
 Authors: Tomas Norre <tomas.norre@gmail.com>
+
 
 ```text
 The MIT License (MIT)
