@@ -4,16 +4,13 @@ This cookbook is a pptpd_vpn server build. It is build for raspberry pi with Ras
 also works on Debian and Ubuntu[3].
 
 1) [http://www.raspbian.org/](http://www.raspbian.org/)
-
 2) [http://www.debian.org/](http://www.debian.org/)
-
 3) [http://www.ubuntu.com/](http://www.ubuntu.com/)
 
 Requirements
 ------------
 
 Running system with one of above operating systems.
-
 
 Attributes
 ----------
@@ -43,6 +40,16 @@ Issues
 ------
 
 Simply add a issue in the [issue tracker](https://bitbucket.org/tomasnorre/chef_pptpd_vpn/issues).
+
+Contributing
+------------
+e.g.
+
+1. Fork the repository
+2. Create a named feature branch (like add_component_x)
+3. Write your change
+4. Submit a Pull Request
+
 
 License and Authors
 -------------------
