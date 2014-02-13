@@ -48,5 +48,5 @@ logwtmp
 #
 # (Recommended)
 
-localip 192.168.1.106
-remoteip 192.168.1.212-238,192.168.1.220
+localip <%= @local_ip %>
+remoteip <%= @ip_begin %>-<%= @ip_end_block %>

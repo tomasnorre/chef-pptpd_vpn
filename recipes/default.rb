@@ -17,16 +17,23 @@ service 'pptpd' do
 	action [:start, :enable]
 end
 
-# write configuration files
+# write user/password file
 cookbook_file '/etc/ppp/chap-secrets' do
 	source 'chap-secrets'
 	mode '0600'
 end
 
-cookbook_file '/etc/pptpd.conf' do
-	source 'pptpd.conf'
-	mode '0644'
-	notifies :restart, 'service[pptpd]'
+# write configuration file
+template 'update pptpd.conf' do
+  path '/etc/pptpd.conf'
+  source 'pptpd.conf.erb'
+  mode 0644
+  variables(
+      local_ip: node['pptpd_vpn']['local_ip'],
+      ip_begin: node['pptpd_vpn']['ip_begin'],
+      ip_end_block: node['pptpd_vpn']['ip_end_block']
+  )
+  notifies :restart, 'service[pptpd]'
 end
 
 service 'pptpd' do
