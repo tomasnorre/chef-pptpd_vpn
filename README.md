@@ -3,9 +3,9 @@ pptpd_vpn Cookbook
 This cookbook is a pptpd_vpn server build. It is build for raspberry pi with Raspbian[1], but as Raspbian is build on Debian[2] is
 also works on Debian and Ubuntu[3].
 
-1) [http://www.raspbian.org/](http://www.raspbian.org/)
-2) [http://www.debian.org/](http://www.debian.org/)
-3) [http://www.ubuntu.com/](http://www.ubuntu.com/)
+1) [http://www.raspbian.org/](http://www.raspbian.org/)<br />
+2) [http://www.debian.org/](http://www.debian.org/)<br />
+3) [http://www.ubuntu.com/](http://www.ubuntu.com/)<br />
 
 Requirements
 ------------
@@ -17,7 +17,7 @@ Running system with one of above operating systems.
 Attributes
 ----------
 
-You need to change the "local_ip", "ip_begin" and "ip_end_block" in the node configuration to match you network settings.
+You need to change the `local_ip`, `ip_begin` and `ip_end_block` in the node configuration to match you network settings.
 
 Usage
 -----
