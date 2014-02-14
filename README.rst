@@ -53,7 +53,7 @@ e.g.
 
 License and Authors
 -------------------
-- Authors: Tomas Norre <tomas.norre@gmail.com>
+- Authors: Tomas Norre
 
 
 ::
