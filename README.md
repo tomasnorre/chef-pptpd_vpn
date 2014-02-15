@@ -53,10 +53,12 @@ e.g.
 4. Submit a Pull Request
 
 
-License and Authors
--------------------
-- Authors: Tomas Norre
+Authors
+-------
+* Tomas Norre
 
+License
+-------
 
 
 ```text
