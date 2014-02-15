@@ -57,7 +57,7 @@ License and Authors
 -------------------
 - Authors: Tomas Norre
 
-```text
+```
   The MIT License (MIT)
 
   Copyright (c) 2014 Tomas Norre
