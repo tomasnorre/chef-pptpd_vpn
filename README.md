@@ -60,7 +60,6 @@ Authors
 License
 -------
 
-
 ```text
   The MIT License (MIT)
 
