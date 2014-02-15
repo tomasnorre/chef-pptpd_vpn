@@ -36,7 +36,7 @@ Just include 'pptpd_vpn' in your node's 'run_list':
       "recipe[pptpd_vpn]"
     ]
   }
-```
+``
 
 Issues
 ------
@@ -57,6 +57,7 @@ License and Authors
 -------------------
 - Authors: Tomas Norre
 
+```text
   The MIT License (MIT)
 
   Copyright (c) 2014 Tomas Norre
@@ -78,4 +79,4 @@ License and Authors
   LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
   OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
   SOFTWARE.
-
+```
