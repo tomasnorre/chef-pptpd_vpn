@@ -25,6 +25,7 @@ Usage
 e.g.
 Just include 'pptpd_vpn' in your node's 'run_list':
 
+```json
   {
     "pptpd_vpn": {
       "local_ip": "192.168.1.53",
@@ -35,6 +36,7 @@ Just include 'pptpd_vpn' in your node's 'run_list':
       "recipe[pptpd_vpn]"
     ]
   }
+```
 
 Issues
 ------
