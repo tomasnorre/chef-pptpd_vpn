@@ -5,15 +5,15 @@
 # Copyright 2014, Tomas Norre
 #
 
-# install apache
+# install pptpd
 package 'pptpd' do
   action :install
 end
 
-# start the apache service
-# make sure the service starts on reboot
+# Starting the service at boot
 service 'pptpd' do
-  action [:start, :enable]
+  supports restart: true
+  action [:enable, :start]
 end
 
 # write user/password file
@@ -33,9 +33,4 @@ template 'update pptpd.conf' do
     ip_end_block: node['pptpd_vpn']['ip_end_block']
   )
   notifies :restart, 'service[pptpd]'
-end
-
-service 'pptpd' do
-  supports restart: true
-  action [:enable, :start]
 end
