@@ -55,7 +55,7 @@ e.g.
 
 Authors
 -------
-* Tomas Norre
+* Tomas Norre <tomasnorre@gmail.com>
 
 License
 -------
