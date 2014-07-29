@@ -1,5 +1,5 @@
 name             'pptpd_vpn'
-maintainer       'Tomas Norre'
+maintainer       'Tomas Norre Mikkelsen'
 maintainer_email 'tomasnorre@gmail.com'
 license          'All rights reserved'
 description      'Installs/Configures pptpd_vpn'
