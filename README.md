@@ -7,6 +7,8 @@ also works on Debian and Ubuntu[3].
 2. [http://www.debian.org/](http://www.debian.org/)
 3. [http://www.ubuntu.com/](http://www.ubuntu.com/)
 
+[![Build Status](https://travis-ci.org/tomasnorre/chef-pptpd_vpn.svg?branch=master)](https://travis-ci.org/tomasnorre/chef-pptpd_vpn)
+
 Requirements
 ------------
 
